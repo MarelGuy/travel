@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;400;500;600;700;900&display=swap");
 
+body {
+margin: 0;
+}
+
 :root {
   --lato: "Lato", sans-serif;
   --poppins: "Poppins", sans-serif;
@@ -31,4 +35,17 @@
 .hero h1 {
   margin-bottom: 20px;
   font-size: 50px;
+}
+
+.hero1 img {
+  max-width: auto;
+  margin-top: 10px;
+}
+
+.div0{
+  max-width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
